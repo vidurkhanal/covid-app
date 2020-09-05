@@ -1,0 +1,34 @@
+.infoCard {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoCard:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoCard--selectedRed {
+  border-top: 10px solid red;
+}
+
+.infoCard--selectedGreen {
+  border-top: 10px solid green;
+}
+
+.infoCard__changes {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoCard__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem;
+  margin-top: 15px;
+}
+
+.green {
+  color: green !important;
+}

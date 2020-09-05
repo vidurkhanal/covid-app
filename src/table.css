@@ -1,0 +1,30 @@
+.leaderboard {
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+
+.leaderboard tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leaderboard td {
+  padding: 0.5rem;
+}
+
+.leaderboard tr:nth-of-type(odd) {
+  background: #a6a6aa;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.leaderboard::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.leaderboard {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
